@@ -1,21 +1,17 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
 
-# Firebase configuration
-/app/google-services.json
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+**/secrets.properties
+**/local.properties
 
-# Secrets
-secrets.properties
+# Web dependencies and build output
+Web/node_modules/
+Web/dist/
+
+# Android build output and IDE files
+**/.gradle/
+**/build/
+**/.idea/
