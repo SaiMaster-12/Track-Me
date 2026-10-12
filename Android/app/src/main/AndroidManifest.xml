@@ -16,7 +16,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBQtcXaP2DT_xCSehDd7WvAId_TueH7Nr0" />
+            android:value="ENTER_YOUR_API_KEY" />
 
         <activity
             android:name=".TrackingActivity"
